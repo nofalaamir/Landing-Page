@@ -1,0 +1,109 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    size: 100vh;
+    background-color: #383838;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(0, 0, 0);
+    font-size: 24px;
+    margin-bottom: -20px;
+    padding-right: 120px;
+    padding-left: 70px;
+
+}
+
+.Links{
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+   list-style: none; 
+}
+
+.Hero-Section{
+    display: flex;
+    margin-top: 20px;
+    background-color: #383838;
+    color: white;
+    margin-bottom: 20px;
+   padding: 100px 20px;
+    justify-content: space-evenly;
+    background-color: black;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.fid{
+    width: 50%;
+}
+.sid{
+    border-radius: 15px;
+    background: #0fa47a;
+    padding: 10px;
+    width: 550px; 
+    height: 400px;
+ 
+}
+button{
+    margin-top: 20px;
+    background-color: #0fa47a;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+.Second-Section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px;
+    
+}
+.info{
+    
+    
+    justify-content: space-evenly;
+}
+.text{
+    color: white;
+}
+.testimonials{
+    color: white;
+    border: solid;
+
+    padding: 50px;
+   
+}
+.review{
+    font-size: 36px;
+    font-style: italic;
+    
+}
+.Customer{
+ display: flex;
+ flex-direction: row-reverse;
+ font-weight: 900;
+}
+.cta{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
